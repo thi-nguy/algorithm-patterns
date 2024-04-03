@@ -61,5 +61,5 @@ function maxAvarageSlidingWindow(nums: number[], k: number): number {
 
 const nums = [1, 12, -5, -6, 50, 3];
 const k = 4;
-// console.log(maxAvarageNaive(nums, k));
+console.log(maxAvarageNaive(nums, k));
 console.log(maxAvarageSlidingWindow(nums, k));

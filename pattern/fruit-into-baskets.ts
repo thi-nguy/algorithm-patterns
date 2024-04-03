@@ -58,7 +58,7 @@ function totalFruit(fruits: number[]): number {
   return maxFruit;
 }
 
-function totalFruitInterestingButNotReadable(fruits: number[]): number {
+function totalFruitBetter(fruits: number[]): number {
   let maxFruit = 0;
   let countFruit = 0;
   let lastFruitCount = 0;
@@ -73,7 +73,7 @@ function totalFruitInterestingButNotReadable(fruits: number[]): number {
       countFruit = lastFruitCount + 1;
     }
 
-    // ! find new fruit and ?
+    // ! Update lastFruit , lastFruitCount
     if (fruit !== lastFruit) {
       secondLastFruit = lastFruit;
       lastFruit = fruit;
